@@ -4,7 +4,7 @@ This module is defines some global properties onto an Object which are useful in
 
 ## Installation
 
-Install using `` npm install piTestGlobals``
+Install using `` npm install pitestglobals``
 
 ## Usage
 
@@ -12,7 +12,7 @@ Below is an example on how to use show the line number of your file within the c
 
 ```
 
- var piTestGlobals = require('piTestGlobals');
+ var pitestglobals = require('pitestglobals');
 
  console.log(__line);
 
