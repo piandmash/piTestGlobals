@@ -1,0 +1,34 @@
+{
+	"name": "pitestglobals"
+	,"description": "This module is defines some global properties onto an Object which are useful in debugging and testing."
+	,"keywords": ["javascript", "debugging", "testing", "function name", "file name", "stack", "line number"]
+    , "version": "0.1.0"	
+	, "author": {
+		"name": "PI & Mash"
+		, "email": "pete@piandmash.com"
+	}
+	, "maintainers": [
+		{ "name": "Pete Cleary"	}
+	]
+    ,"repository" : {
+        "type" : "git",
+        "url" : "http://github.com/piandmash/piTestGlobals.git"
+    }
+    ,"bugs" : {
+        "url" : "http://github.com/piandmash/piTestGlobals/issues"
+    }
+    ,"licenses" : [
+        {
+            "type" : "MIT",
+            "url" : "http://github.com/piandmash/piTestGlobals/raw/master/LICENSE"
+        }
+    ]
+	, "main": "lib/piTestGlobals"
+    , "dependencies": {
+    }
+    , "devDependencies": {
+    }
+    , "scripts": {
+        "grunt": "node node_modules\\.bin\\grunt"
+    }
+}
